@@ -1,0 +1,32 @@
+[
+    {
+        "name": "El Bayt Stadium",
+        "location": "Al Khor, Qatar",
+        "capacity": "60000"
+    },
+    {
+        "name": "Al Janoub Stadium",
+        "location": "Al Wakrah, Qatar",
+        "capacity": "40000"
+    },
+    {
+        "name": "Stadium 974",
+        "location": "Doha, Qatar",
+        "capacity": "40000"
+    },
+    {
+        "name": "Al Thumama Stadium",
+        "location": "Doha, Qatar",
+        "capacity": "40000"
+    },
+    {
+        "name": "Education City Stadium",
+        "location": "Al Rayyan, Qatar",
+        "capacity": "45350"
+    },
+    {
+        "name": "Ahmed Bin Ali Stadium",
+        "location": "Al Rayyan, Qatar",
+        "capacity": "44740"
+    }
+]

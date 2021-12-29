@@ -1,0 +1,17 @@
+{
+  "name": "footcup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Zineeddine998/footcup.git",
+  "author": "zine eddine <iz_zidane@esi.dz>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.2",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.1.4"
+  },
+  "scripts": {
+    "start": "node src/app.js"
+  }
+}
