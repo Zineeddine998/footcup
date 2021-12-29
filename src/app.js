@@ -1,8 +1,9 @@
 import express from 'express';
-const port = 3000;
+const port = process.env.PORT || 3000;
 import helmet from 'helmet';
 import "./core/db.js";
 import router from './routers/index.js';
+import crypto from 'crypto';
 
 const app = express();
 

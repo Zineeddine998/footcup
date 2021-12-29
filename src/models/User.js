@@ -3,15 +3,20 @@ const DOCUMENT_NAME = 'User';
 const COLLECTION_NAME = 'users';
 
 const userSchema = new mongoose.Schema({
-    userName: {
+    username: {
         type: mongoose.Schema.Types.String,
         required: true,
-        unique: true
+    },
+    email: {
+        type: mongoose.Schema.Types.String,
+        required: true,
+        unique: true,
+        trim: true,
     },
     password: {
         type: mongoose.Schema.Types.String,
         required: true,
-    }
+    },
 }, {
     timestamps: true,
 });

@@ -1,6 +1,6 @@
 import express from 'express';
 import { getAllPlayers, getPlayerById, deletePlayerById, createPlayer, updatePlayer } from "./controller.js";
-
+import { auth, authErrorHandler } from "../../core/auth.js";
 
 const router = express.Router();
 
@@ -16,10 +16,11 @@ router.get('/:id', getPlayerById);
 
 
 // delete player
-router.delete('/:id', deletePlayerById);
+router.delete('/:id', auth(), authErrorHandler(), deletePlayerById);
 
 
 router.post('/', createPlayer);
+
 router.put('/', updatePlayer);
 
 
